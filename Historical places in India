@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <style>     
+                
+       
+            body{
+                background-image: linear-gradient(180deg, orange,white,green, orange,white,green);
+                background-size:cover;
+                background-attachment: scroll;                
+                background-position: 150px;
+                padding: 50px;
+                text-indent: 60px;
+                padding-top: 80px;
+                
+            }
+            .photo{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+            h1{
+                font-size: small;
+
+            }                       
+            
+           
+            #header{
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                background-image: linear-gradient(180deg, orange,white,green);
+                color:black;
+                text-align: center;
+                position: fixed;
+                font-size: 10px;
+            }
+
+            #footer{
+                width: 100%;
+                bottom: 0px;
+                left: 0px;
+                background-image: linear-gradient(120deg,RED, yellow, violet, rgb(209, 239, 209));
+                color:black;
+                text-align: center;
+                position: fixed;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+            }   
+            
+            .grid-item{
+                
+                padding: 20px;
+                font-size: 50px;
+                text-align: center;
+            }
+        </style>
+        <body>
+            <div id="header">
+                <h2>Historical Places in INDIA</h2>
+                </div>    
+            <div class="photo">
+                
+                
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=AwrKFbF2wOxiK9cDqN67HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711734/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fTaj_Mahal/RK=2/RS=1E3OVuUz17i4VPk0LQ5bDxIeNfc-" target="a">Tajmahal</a></h1><img src="https://www.malaysia-today.net/wp-content/uploads/2019/11/Taj-Mahal-Agra-India.jpg" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=Awrx_T1TwOxiaxUEQl27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711700/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fRed_Fort/RK=2/RS=foWVjiUvSfQQxHI2eMoptXOMOVU-" target="a">Red Fort</a></h1><img src="https://tse3.mm.bing.net/th?id=OIP.Qz6IWI0w3-H_1ishg6aVkgHaE9&pid=Api&P=0"width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=Awrx0MqDvexicHMAhgW7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659710979/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fQutb_Minar/RK=2/RS=tkJeolPD_ZeA9L8EXHMY19pA2hc-" target="a">Qutub Minar</a></h1><img src="https://tse1.mm.bing.net/th?id=OIP.j7dhuX2IxaoUwLL2jijTJgHaJ4&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=Awrx_T2BvuxikyQDdjG7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711234/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fKonark/RK=2/RS=hgBAaKirSo.C146qNAO9y3WicQ0-" target="a">Konark</a></h1><img src="https://tse4.mm.bing.net/th?id=OIP.AL6BjAP3EpZZd-xlbPFjVAHaFj&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=AwrKDxfcv.xiaTkD18q7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711581/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fCharminar/RK=2/RS=.7661jcz5QJfBKnMHahwJfTMpsI-" target="a">Charminar</a></h1><img src="https://tse3.mm.bing.net/th?id=OIP.79gAev8TCfmv8M0Ir5nyTAHaEJ&pid=Api&P=0" width="250px" height="250px" alt-" " ></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=Awrx_T0Wv.xiiRcEZTO7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711383/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fLotus_Temple/RK=2/RS=r.eaPKiweMoVdSocIHgsDvmF_ew-" target="a">Lotus Temple</a></h1><img src="https://tse1.mm.bing.net/th?id=OIP.riYuMqC4sV1XSub1gVMCVQHaFj&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=Awrx_T0bwOxiti0EWC27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711644/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fHawa_Mahal/RK=2/RS=0wHrxgiOBcED2yvqmRRAbpfCr3w-" target="a">Hawa Mahal</a></h1><img src="https://tse4.mm.bing.net/th?id=OIP.YIPZZSrcc5Xj25NnB0j4ZgHaE3&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=AwrKDxecwOxiHGMD.IC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711772/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fIndia_Gate/RK=2/RS=gPYcvzO2otiIO.m6CRz9iN6vmio-" target="a">India Gate</a></h1><img src="https://tse1.mm.bing.net/th?id=OIP.sfgsYpKaI0gLZEf2RpXUkwHaE8&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+                <div class="grid-item"><h1><a href="https://r.search.yahoo.com/_ylt=AwrKFbHtwOxi_HoDILW7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1659711854/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fGolden_Temple/RK=2/RS=TiCxf4.fHJGNKHPsobBbgimx3Wk-" target="a">Golden Temple</a></h1><img src="https://tse1.mm.bing.net/th?id=OIP.TxXcZgyMGqF1aEuv5k9qcAHaE8&pid=Api&P=0" width="250px" height="250px" alt-" "></div>
+
+            </div>   
+            <br>
+        </div> 
+        <div align="Center">
+            <iframe width="300" height="215" src="https://www.youtube.com/embed/0Zsb2KmFNkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <footer id="footer" align="center">Thank You <br>Developed and Designed by Monalisha Pradhan</footer>    
+        </body>
+    </head>
+</html>  
+                        
+            
